@@ -26,6 +26,10 @@ public class ContactPerson {
 
     }
 
+    public ContactPerson() {
+
+    }
+
 
     @Override
     public String toString() {
@@ -42,5 +46,16 @@ public class ContactPerson {
     }
 
     public void printContact() {
+    }
+
+    public boolean checkList() {
+        return false;
+    }
+
+    public void addContact() {
+    }
+
+    public boolean editContact() {
+        return false;
     }
 }
