@@ -1,6 +1,4 @@
 package com.addressbook;
-import java.util.ArrayList;
-import java.util.Scanner;
 
 public class ContactPerson {
     //Declaring variables for Address Book
@@ -55,7 +53,11 @@ public class ContactPerson {
     public void addContact() {
     }
 
-    public boolean editContact() {
+    public boolean editContact(String person_name) {
+        return false;
+    }
+
+    public boolean deleteContact(String firstName) {
         return false;
     }
 }
