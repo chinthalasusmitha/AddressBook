@@ -1,4 +1,6 @@
 package com.addressbook;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class ContactPerson {
     //Declaring variables for Address Book
@@ -39,4 +41,6 @@ public class ContactPerson {
                 '}';
     }
 
+    public void printContact() {
+    }
 }

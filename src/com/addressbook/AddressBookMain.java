@@ -1,4 +1,6 @@
 package com.addressbook;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class AddressBookMain {
 
@@ -14,7 +16,7 @@ public class AddressBookMain {
         AddressBookMain book = new AddressBookMain();
 
         //Calling Encapsulated Class object
-        ContactPerson addressBook = new ContactPerson("Sumitha","Reddy","Bachupally","Hyderabad",
+        ContactPerson addressBook = new ContactPerson("Susmitha","Reddy","Bachupally","Hyderabad",
                 "Telangana","500090","9177376524","susmithareddy083@gmail.com");
 //        System.out.println("Welcome to Address Book Program !!!");
         System.out.print("\n"+addressBook.toString());
